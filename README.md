@@ -12,7 +12,7 @@ A real-time computer vision pipeline that extracts credit card details (number, 
 
 ## Important
 
-Dataset needs to be installed from Roboflow, Information about the Dataset can be inferred from the README files of ROBOFLOW, Refer results folder for the confirmation of the dataset 
+Dataset needs to be installed from Roboflow, Information about the Dataset can be inferred from the README files of ROBOFLOW, Refer results3 folder for the confirmation of the dataset 
 
 ## Installation
 
@@ -25,3 +25,4 @@ pip install -r requirements.txt
 bash
 
 python main.py
+
