@@ -10,13 +10,18 @@ A real-time computer vision pipeline that extracts credit card details (number, 
 - Character mapping for common OCR errors (e.g., 'O' → '0')
 - Real-time UX: guide rectangle, green overlay, one-time extraction
 
+## Important
+
+Dataset needs to be installed from Roboflow, Information about the Dataset can be inferred from the README files of ROBOFLOW, Refer results folder for the confirmation of the dataset 
+
 ## Installation
 
 ```bash
-git clone https://github.com/<yourusername>/credit-card-reader.git
+git clone https://github.com/TanAgrawal/credit-card-reader.git
 cd credit-card-reader
 pip install -r requirements.txt
 
 ## Usage
 bash
+
 python main.py
