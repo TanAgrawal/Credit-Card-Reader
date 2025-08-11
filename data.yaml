@@ -1,0 +1,12 @@
+train: C:/Users/cbnits-304/OneDrive - NEXTZEN MINDS/Desktop/CREDIT_CARD_OCR/train/images
+val: C:/Users/cbnits-304/OneDrive - NEXTZEN MINDS/Desktop/CREDIT_CARD_OCR/valid/images
+
+nc: 3
+names: ['Exp date', 'name', 'number']
+
+roboflow:
+  workspace: rodion-shkokov
+  project: credit-cards-info-extraction
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/rodion-shkokov/credit-cards-info-extraction/dataset/1
