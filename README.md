@@ -1,0 +1,22 @@
+# 💳 Credit Card Detail Reader
+
+A real-time computer vision pipeline that extracts credit card details (number, name, expiry) using YOLOv8 and OCR. Designed for fintech-grade UX with robust preprocessing and postprocessing.
+
+## Features
+
+- YOLOv8-based detection of card fields
+- Field-specific OCR using EasyOCR or pytesseract
+- Adaptive thresholding, contour filtering, and masking logic
+- Character mapping for common OCR errors (e.g., 'O' → '0')
+- Real-time UX: guide rectangle, green overlay, one-time extraction
+
+## Installation
+
+```bash
+git clone https://github.com/<yourusername>/credit-card-reader.git
+cd credit-card-reader
+pip install -r requirements.txt
+
+## Usage
+bash
+python main.py
